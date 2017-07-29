@@ -1,10 +1,9 @@
+
 import React, { Component } from 'react';
 
 import { Spin, message, Tabs, Icon } from 'antd';
 import './index.less'
 import 'antd/dist/antd.css'
-// import Hello from '../hello/index.js'
-// import Login from '../login/index.js'
 import Welcome from '../welcome/index.js'
 
 import globalConfig from '../../config.js';
@@ -63,5 +62,3 @@ export default class App extends Component {
     );
   }
 }
-
-
